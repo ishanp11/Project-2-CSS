@@ -1,0 +1,332 @@
+.page-1{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+
+
+nav{
+    position: relative;
+    top: 73px;
+    left: 100px;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: royalblue;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-weight: 900PX;
+    position: relative;
+    left: 1275px;
+    top: 50px;
+    
+    
+}
+.addnewtask{
+    position: absolute;
+    left: 1325px;
+    bottom: 2px;
+
+}
+.box1{
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    
+
+}
+.box1:hover{ 
+    
+    box-shadow: 0px 0px 10px 10px grey;
+
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+
+.box2{
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+.box2:hover{
+    box-shadow: 0px 0px 10px 10px grey;
+}
+.box3{
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+.box3:hover{
+    box-shadow: 0px 0px 10px 10px grey;
+}
+.box4{
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}   
+.box4:hover{
+    box-shadow: 0px 0px 10px 10px grey;
+}
+.box5{
+    height: 400px;
+    width: 400px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    
+}
+.box5:hover{
+    text-decoration: none;
+}
+hr{
+    color: grey;
+}
+.boxp1{
+    z-index: 1;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    position: absolute;
+    top: 304px;
+    left: 480px;
+    border: 5px solid blue;
+    
+    
+}
+.input{
+    width:150px;
+}
+.X{
+    position: relative;
+    left: 472px;
+    bottom: 45px;
+}
+.task{
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.list{
+    color: blue;
+    position: relative;
+    bottom: 10px;
+    left: 180px;
+}
+
+.blurr{
+    filter: blur(2px);
+    
+}
+
+.parent{
+    width: 100%;
+}
+.p3{
+    position: relative;
+    top: 60px;
+    left: 70px;
+}
+.p3l{
+    position: relative;
+    left: 150px;
+}
+.p3addnewtask{
+
+    position: relative;
+    left: 995px;
+    bottom: 100px;
+    font-weight: bolder;
+}
+.circle2{
+
+    border-radius: 50%;
+    background-color: royalblue;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-weight: 900PX;
+    position: relative;
+    left: 950px;
+    bottom: 50px;
+}
+.backicon{
+ position: relative;
+ left: 200px;
+ top: 50px;
+}
+.back{
+    font-size: larger;
+    position: relative;
+    left: 227px;
+}
+.p4box{
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 447px;
+    bottom: 28px;
+    border-radius: 15px;
+    border: 2px solid blue;
+    text-align: center;
+}
+.checkboxpage3{
+
+    text-align: start;
+    
+}
+.blurpage4{
+    filter: blur(2px);
+}
+.addnewp4{
+
+    height: 200px;
+    width: 400px;
+    border: 2px solid blue;
+    position: absolute;
+    left: 418px;
+    bottom: 263px;
+    border-radius: 5px;
+}
+.additemS{
+    height: 30PX;
+    width: 90px;
+    background-color: blue;
+    color: aliceblue;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.X2{
+    position: relative;
+    left: 366px;
+    bottom: 44px;
+
+}
+.list1{
+    position: relative;
+    left: 174px;
+    top: 16px;
+}
+.page-2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+
+
+}
+.page-1{
+    overflow-x: hidden;
+}
+.page-3body{
+    overflow-x: hidden;
+}
+    
+@media screen and (min-width:280px) and (max-width:500px){
+    body{
+        background-size: auto;
+        margin: 0%;
+        padding: 0%;
+    
+    }
+    .box1{ 
+        
+        position: relative;
+        top: 42px;
+        left: 100px;
+        width: 1400px;
+        
+    }
+    .box2{
+        position: relative;
+        top: 494px;
+        left: -55px;
+        width: 1400px;
+
+    }
+    .box3{
+        position: relative;
+        top: 921px;
+        left: -215px;
+        width: 1400px;
+    }
+    .circle{
+        position: relative;
+        left: 157px;
+        top: 15px;
+    }
+    .boxp1{
+        width: 430px;
+        position: absolute;
+        left: 3px;
+        top: 200px;
+
+    }
+    .page-2{
+        position: relative;
+
+
+    }
+    .p4box{
+        position: relative;
+        left: 51px;
+        top: -12px;
+    }
+    
+    
+    .circle2{
+        position: relative;
+        left: 227px;
+        top: 9px;
+
+    }
+    .backicon{
+        position: absolute;
+        left: 100px;
+        top: -53px;
+    }
+    .back{
+        position: absolute;
+        left:0px;
+        right: 0px;
+    }
+    
+    .X{
+        position: absolute;
+        left: 385px;
+        top: 21px;
+
+    }
+    
+    
+}
+    
